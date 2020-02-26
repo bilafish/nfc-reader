@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "ORIGIN_TOKEN": "@origin-token"
+    }
+  }
+}
