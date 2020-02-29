@@ -4,3 +4,6 @@ node_modules
 *.lock
 
 package-lock.json
+.now
+.env
+.env.build

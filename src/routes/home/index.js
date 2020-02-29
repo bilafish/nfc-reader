@@ -1,11 +1,19 @@
-import { h } from 'preact';
-import style from './style';
+import { h } from "preact";
+import style from "./style";
 
-const Home = () => (
-	<div class={style.home}>
-		<h1>Home</h1>
-		<p>This is the Home component.</p>
-	</div>
-);
+const Home = () => {
+  if (typeof window !== "undefined") {
+    if ("NDEFReader" in window) {
+      alert("NFC Supported");
+    }
+  }
+
+  return (
+    <div class={style.home}>
+      <h1>home</h1>
+      <p>Welcome to Home</p>
+    </div>
+  );
+};
 
 export default Home;
