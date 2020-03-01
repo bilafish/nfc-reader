@@ -6,7 +6,7 @@ import Header from "./header";
 
 // Code-splitting is automated for routes
 import Home from "../routes/home";
-import Profile from "../routes/profile";
+import About from "../routes/about";
 
 export default class App extends Component {
   /** Gets fired when the route changes.
@@ -26,12 +26,17 @@ export default class App extends Component {
             http-equiv="origin-trial"
             content={process.env.PREACT_APP_ORIGIN_TOKEN}
           />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link
+            href="https://db.onlinewebfonts.com/c/0bb8fc8f96e73a290ad686a47680b476?family=Google+September+2015"
+            rel="stylesheet"
+            type="text/css"
+          />
         </Helmet>
         <Header />
         <Router onChange={this.handleRoute}>
           <Home path="/" />
-          <Profile path="/profile/" user="me" />
-          <Profile path="/profile/:user" />
+          <About path="/about/" user="me" />
         </Router>
       </div>
     );

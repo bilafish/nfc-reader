@@ -10,7 +10,6 @@ const Home = () => {
 
   return (
     <div class={style.home}>
-      <h1>home</h1>
       <p>Welcome to Home</p>
     </div>
   );
