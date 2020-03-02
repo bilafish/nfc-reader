@@ -38,7 +38,9 @@
     "preact-no-ssr": "^0.0.3",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^3.2.1",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-lottie": "^1.2.3",
+    "react-switch-selector": "^1.0.1"
   },
   "jest": {
     "preset": "jest-preset-preact",
