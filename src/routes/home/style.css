@@ -1,5 +1,13 @@
 .home {
-	padding: 56px 20px;
-	min-height: 100%;
-	width: 100%;
+  padding: 56px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toggle {
+  width: 200px;
+  margin-top: 20px;
+  height: 30px;
 }

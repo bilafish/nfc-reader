@@ -16,7 +16,6 @@ export default class App extends Component {
   handleRoute = e => {
     this.currentUrl = e.url;
   };
-  // <meta http-equiv="origin-trial" content={process.env.ORIGIN_TOKEN} />
 
   render() {
     return (
