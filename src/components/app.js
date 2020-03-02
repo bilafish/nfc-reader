@@ -27,9 +27,8 @@ export default class App extends Component {
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link
-            href="https://db.onlinewebfonts.com/c/0bb8fc8f96e73a290ad686a47680b476?family=Google+September+2015"
+            href="https://fonts.googleapis.com/css?family=Cabin&display=swap"
             rel="stylesheet"
-            type="text/css"
           />
         </Helmet>
         <Header />

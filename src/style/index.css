@@ -1,5 +1,3 @@
-@import url(https://db.onlinewebfonts.com/c/0bb8fc8f96e73a290ad686a47680b476?family=Google+September+2015);
-
 html,
 body {
   height: 100%;
@@ -7,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
   background: #f7f7f5;
-  font-family: "Google September 2015";
+  font-family: "Cabin";
   font-weight: 400;
   color: #444;
   -webkit-font-smoothing: antialiased;
