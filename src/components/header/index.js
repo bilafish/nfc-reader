@@ -4,11 +4,14 @@ import style from "./style.css";
 
 const Header = () => (
   <header class={style.header}>
-    <h1>
-      <strong>
-        web<span>nfc</span>
-      </strong>
-    </h1>
+    <div class={style.logo}>
+      <img src="../../assets/logo.png" width="30" height="30" />
+      <h1>
+        <strong>
+          web<span>nfc</span>
+        </strong>
+      </h1>
+    </div>
     <nav>
       <Link activeClassName={style.active} href="/">
         Home
