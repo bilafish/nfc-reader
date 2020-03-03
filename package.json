@@ -34,6 +34,7 @@
     "sirv-cli": "^0.4.5"
   },
   "dependencies": {
+    "@material-ui/core": "^4.9.5",
     "preact": "^10.3.2",
     "preact-no-ssr": "^0.0.3",
     "preact-render-to-string": "^5.1.4",
