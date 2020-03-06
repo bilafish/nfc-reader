@@ -10,7 +10,12 @@ const Header = () => {
   return (
     <header class={style.header}>
       <div class={style.logo}>
-        <img src="../../assets/logo.png" width="30" height="30" />
+        <img
+          src="../../assets/logo.png"
+          width="30"
+          height="30"
+          alt="WebNFC Logo"
+        />
         <h1>
           <strong>
             web<span>nfc</span>

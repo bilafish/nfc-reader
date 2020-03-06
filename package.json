@@ -20,6 +20,7 @@
     ]
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-preact-pure": "^2.0.0",
     "eslint": "^6.0.1",
