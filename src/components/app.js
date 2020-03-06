@@ -26,10 +26,15 @@ export default class App extends Component {
             content={process.env.PREACT_APP_ORIGIN_TOKEN}
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta
+            name="Description"
+            content="WebNFC is a web app that runs on your Chrome browser for reading and writing NFC tags."
+          />
           <link
             href="https://fonts.googleapis.com/css?family=Cabin&display=swap"
             rel="stylesheet"
           />
+          <title>webNFC</title>
         </Helmet>
         <Header />
         <Router onChange={this.handleRoute}>
