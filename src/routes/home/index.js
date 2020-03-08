@@ -2,13 +2,9 @@ import { h } from "preact";
 import style from "./style";
 import ScanLottie from "../../components/scanlottie";
 import SwitchSelector from "react-switch-selector";
+import Alert from "../../components/alert";
 
 const Home = () => {
-  if (typeof window !== "undefined") {
-    if ("NDEFReader" in window) {
-      alert("NFC Supported");
-    }
-  }
   const options = [
     {
       label: "Read",
@@ -32,6 +28,7 @@ const Home = () => {
 
   return (
     <div class={style.home}>
+      <Alert />
       <div class={style.toggle}>
         <SwitchSelector
           inputName="NFC Mode"
