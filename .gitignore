@@ -7,3 +7,4 @@ package-lock.json
 .now
 .env
 .env.build
+now.json
