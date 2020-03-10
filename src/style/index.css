@@ -8,6 +8,7 @@ body {
   font-family: "Cabin";
   font-weight: 400;
   color: #444;
+  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
