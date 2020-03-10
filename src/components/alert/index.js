@@ -22,7 +22,11 @@ const Alert = () => {
   }, []);
   return (
     <AlertContainer nfcSupported={nfcSupported}>
-      <span>Your browser does not support NFC</span>
+      <span>
+        {nfcSupported
+          ? ""
+          : `Your browser might not be enabled to support NFC yet`}
+      </span>
     </AlertContainer>
   );
 };
