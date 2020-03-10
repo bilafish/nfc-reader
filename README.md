@@ -6,11 +6,11 @@
   <img src="./screenshots/main.jpg" alt="Main Screen" width="300px">
   <img src="./screenshots/nfc-reading.jpg" alt="Main Screen" width="300px">
 </p>
-  
+
 ## Technologies
 
-- :atom_symbol: Preact (Front-End)
-- Web NFC API (By Google Chrome)
+- :atom_symbol: [Preact](https://preactjs.com/) (Front-End)
+- [Web NFC API](https://web.dev/nfc/) (By Google Chrome)
 
 ## Development
 
