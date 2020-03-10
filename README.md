@@ -2,6 +2,9 @@
 
 [WebNFC](https://webnfc.now.sh/) is a NFC reading/writing web application that runs on the browser. Currently, this web application works on Google Chrome Beta browser from v81 onwards and Android phones with NFC capabilities.
 
+  <img src="./screenshots/main.jpg" alt="Main Screen" width="300px">
+  <img src="./screenshots/nfc-reading.jpg" alt="Main Screen" width="300px">
+
 ## Technologies
 
 - :atom_symbol: Preact (Front-End)
