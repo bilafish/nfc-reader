@@ -21,6 +21,19 @@ export default class App extends Component {
     return (
       <div id="app">
         <Helmet>
+          /* Global site tag (gtag.js) - Google Analytics */
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-155874130-2"
+          />
+          <script>
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'UA-155874130-2');
+            `}
+          </script>
           <meta
             http-equiv="origin-trial"
             content={process.env.PREACT_APP_ORIGIN_TOKEN}
