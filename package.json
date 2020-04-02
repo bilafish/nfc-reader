@@ -12,7 +12,8 @@
     "dev": "preact watch",
     "lint": "eslint src",
     "test": "jest",
-    "deploy": "now -A now.json"
+    "preview": "now -A now.json",
+    "deploy": "now --prod -A now.json"
   },
   "eslintConfig": {
     "extends": "preact",
