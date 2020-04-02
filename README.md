@@ -12,6 +12,10 @@
 - :atom_symbol: [Preact](https://preactjs.com/) (Front-End)
 - [Web NFC API](https://web.dev/nfc/) (By Google Chrome)
 
+## Features
+- Reading NFC tags
+- Offline Usage (Caching by Service Workers)
+
 ## Development
 
 To setup the app for development on your local machine, please follow the instructions below:
